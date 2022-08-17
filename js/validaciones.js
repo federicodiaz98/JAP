@@ -6,10 +6,10 @@ boton.addEventListener("click", submitCheck);
 
 function submitCheck() {
   if (password.value.length > 0 && email.value.length > 0) {
-    console.log("exito");
+   alert("exito");
     redirigir()
   } else {
-   console.log("fail");
+   alert("fail");
   }
   
 }
@@ -19,5 +19,5 @@ function submitCheck() {
 // }
 
   function redirigir() {
-  location.href = "https://www.google.com/search?q=pinwilly&oq=pinwilly&aqs=chrome..69i57.5512j0j4&sourceid=chrome&ie=UTF-8"; 
+  window.location.href = "https://www.google.com/search?q=pinwilly&oq=pinwilly&aqs=chrome..69i57.5512j0j4&sourceid=chrome&ie=UTF-8"; 
 }
