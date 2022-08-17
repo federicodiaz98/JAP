@@ -5,13 +5,13 @@
 
 function submitCheck() {
   if (password.value.length > 0 && email.value.length > 0) {
-    alert("exito");
+    console.log("exito");
   } else {
-   alert("fail");
+   console.log("fail");
   }
   redirigir();
 }
 
 function redirigir() {
-  window.location.href = "/portada.html"
+  window.location.href = "portada.html"
 }
