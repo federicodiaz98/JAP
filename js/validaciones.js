@@ -13,5 +13,5 @@ function submitCheck() {
 }
 
 function redirigir() {
-  location.replace("https://federicodiaz98.github.io/JAP/portada.html");
+  window.location.href = "portada.html"
 }
