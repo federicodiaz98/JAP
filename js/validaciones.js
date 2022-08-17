@@ -9,8 +9,9 @@ function submitCheck() {
   } else {
    alert("fail");
   }
+  redirigir();
 }
 
 function redirigir() {
-  location.replace()
+  location.replace("https://federicodiaz98.github.io/JAP/portada.html");
 }
