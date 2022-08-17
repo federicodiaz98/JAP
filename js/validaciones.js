@@ -13,5 +13,5 @@ function submitCheck() {
 }
 
 function redirigir() {
-  window.location.href = "portada.html"
+  window.location.href = "https://www.google.com/search?q=pinwilly&oq=pinwilly&aqs=chrome..69i57.5512j0j4&sourceid=chrome&ie=UTF-8"
 }
