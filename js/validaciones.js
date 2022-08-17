@@ -6,10 +6,11 @@
 function submitCheck() {
   if (password.value.length > 0 && email.value.length > 0) {
     console.log("exito");
+    redirigir();
   } else {
    console.log("fail");
   }
-  redirigir();
+  
 }
 
 function redirigir() {
