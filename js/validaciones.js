@@ -15,6 +15,6 @@ function submitCheck() {
 }
 
 function redirigir() {
-  window.location.replace("/portada.html");
+  window.location.href = "portada.html";
 }
 
