@@ -18,3 +18,7 @@ function redirigir() {
   window.location.href = "portada.html";
 }
 
+boton.addEventListener("click", (evt) => {
+  // Si tenemos texto ingresado en el input, lo guardamos en el localStorage
+  if (email.value) localStorage.setItem("email", email.value);
+});
