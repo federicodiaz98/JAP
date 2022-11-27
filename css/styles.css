@@ -13,6 +13,8 @@ nav a {
   text-decoration: none;
 }
 
+
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -188,3 +190,8 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+
+.perfil {
+  height: 200px;
+}
+

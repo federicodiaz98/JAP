@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-1">
+  <nav class="navbar navbar-expand-lg navbar-dark p-1" style="background-color: #43A047;">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav w-100 justify-content-between">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Inicio</a>
+            <a class="nav-link" href="portada.html">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="categories.html">Categorías</a>
@@ -29,9 +29,17 @@
           <li class="nav-item">
             <a class="nav-link active" href="sell.html">Vender</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" id="email"></a>
-          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="email" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="cart.html">Mi carrito</a></li>
+            <li><a class="dropdown-item" href="my-profile.html">Mi perfil</a></li>
+            <li onclick="cerrarSesion()"><a class="dropdown-item">Cerrar sesion</a></li>
+          </ul>
+        
+        
+        
+        </li>
         </ul>
       </div>
     </div>

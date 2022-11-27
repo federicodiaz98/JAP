@@ -19,6 +19,6 @@ function redirigir() {
 }
 
 boton.addEventListener("click", (evt) => {
-  // Si tenemos texto ingresado en el input, lo guardamos en el localStorage
+  // es necesario el if?
   if (email.value) localStorage.setItem("email", email.value);
 });
